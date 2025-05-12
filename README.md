@@ -1,13 +1,37 @@
-# React + Vite
+# react-state 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React project built with Vite to practice **React state management** and **event handling**. The app generates a random animal name when a button is clicked, then displays a corresponding image.
 
-Currently, two official plugins are available:
+Next to each animal image, a small heart icon appears. When the animal's image is clicked, the heart **grows in size** — visually representing affection or interaction, and reinforcing the concept of managing component-specific state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was both fun and informative. It helped me clear up some ambiguous concepts around how state works in React, especially how to:
 
-## Expanding the ESLint configuration
+- trigger updates with user events,
+- manage individual component state,
+- and conditionally render UI based on that state.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# react-state
+## 🔧 Stack
+
+- **React**
+- **Vite**
+- **ESLint**
+- No external state management library — this is all about learning vanilla React state!
+
+## 🚀 How to run it
+
+```bash
+npm install
+npm run dev
+```
+
+## 🔍 What I Learned
+
+- How to update component state using `useState`
+- Event handling in React
+- Conditional rendering
+- Component re-rendering logic
+- The importance of immutability and state isolation
+
+---
+
+Feel free to fork or modify this project to experiment further!
